@@ -39,5 +39,6 @@ public class PlatformerGame extends ApplicationAdapter {
 	@Override
 	public void dispose () {
 		batch.dispose();
+		backgroundMusic.dispose();
 	}
 }

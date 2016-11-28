@@ -51,5 +51,6 @@ public class GameOverState extends AbstractState {
     public void dispose() {
         backgroundImg.dispose();
         gameOverImg.dispose();
+        font.dispose();
     }
 }
