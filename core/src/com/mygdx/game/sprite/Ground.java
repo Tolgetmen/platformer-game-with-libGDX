@@ -24,7 +24,7 @@ public class Ground {
         return position;
     }
 
-    public boolean collide(Rectangle player) {
+    public boolean collides(Rectangle player) {
         return bounds.overlaps(player);
     }
 
